@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Web Accessibility - Bootstrap Page</title>
+
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous" ></script>
+
+</head>
+<body>
+	<!-- Header -->
+	<header class="bg-primary text-white py-3">
+		<div class="container">
+			<h1>Web Accessibility</h1>
+			<p class="lead">Summary of Key Concepts</p>
+		</div>
+	</header>
+
+	<!-- Main Content -->
+	<main class="container my-5">
+		<section>
+			<h2>The WAI Initiative</h2>
+			<p>The Web Accessibility Initiative (WAI) is an effort by the World Wide Web Consortium (W3C) to improve the accessibility of the web for people with disabilities. The WAI develops guidelines and resources for making websites and web applications more accessible.</p>
+		</section>
+
+		<section>
+			<h2>The 4 Tenets of Web Accessibility</h2>
+			<ul>
+				<li>Perceivable</li>
+				<li>Operable</li>
+				<li>Understandable</li>
+				<li>Robust</li>
+			</ul>
+			<p>These tenets provide a framework for making web content accessible to people with disabilities. Each tenet has specific guidelines that developers should follow to ensure accessibility.</p>
+		</section>
+
+		<div class="col col-sm-15 col-lg-4  accordion-area">
+			<div class="accordion" id="accordianProjects" style="margin-top: 25%;">
+			  <!-- overview -->
+				<div class="accordion-item">
+					<h2 class="accordion-header" id="headingOne">
+						<button
+							class="accordion-button bg-dark text-light"
+							type="button"
+							data-bs-toggle="collapse"
+							data-bs-target="#collapseOne"
+							aria-expanded="true"
+							aria-controls="collapseOne">
+							An Overview of WCAG-EM
+						</button>
+					</h2>
+					<div
+                    id="collapseOne"
+                    class="accordion-collapse collapse"
+                    aria-labelledby="Figurative Language"
+                    data-bs-parent="#accordianProjects">
+                    <div class="accordion-body text-dark">
+                        <p class="text-dark">The Web Content Accessibility Guidelines Evaluation Methodology (WCAG-EM) provides a framework for evaluating the accessibility of web content. It includes guidelines for assessing the accessibility of web content, tools for testing accessibility, and resources for improving accessibility.</p>
+                    </div>
+                </div>
+            </div>
+		
+		   <!-- semantic -->
+		   <div class="accordion-item">
+			<h2 class="accordion-header" id="headingOne">
+				<button
+					class="accordion-button bg-dark text-light"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#collapseTwo"
+					aria-expanded="true"
+					aria-controls="collapseTwo">
+					The Importance of Using Semantic Tags
+				</button>
+			</h2>
+			<div
+				id="collapseTwo"
+				class="accordion-collapse collapse"
+				aria-labelledby="Paws Pantry Project"
+				data-bs-parent="#accordianProjects">
+				<div class="accordion-body text-dark">
+				  <p class="text-dark">Semantic HTML tags provide structure and meaning to web content. They help assistive technologies like screen readers to understand the content and context of web pages. Using semantic tags like <header>, <nav>, <main>, <section>, <aside>, and <footer> can greatly improve the accessibility of web content.</p>
+				</div>
+			</div>
+		</div>
+
+		 <!-- semantic -->
+		 <div class="accordion-item">
+			<h2 class="accordion-header" id="headingOne">
+				<button
+					class="accordion-button bg-dark text-light"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#collapseTwo"
+					aria-expanded="true"
+					aria-controls="collapseTwo">
+					Using ARIA in Web Pages
+				</button>
+			</h2>
+			<div
+				id="collapseTwo"
+				class="accordion-collapse collapse"
+				aria-labelledby="Paws Pantry Project"
+				data-bs-parent="#accordianProjects">
+				<div class="accordion-body text-dark">
+				  <p class="text-dark">ARIA (Accessible Rich Internet Applications) attributes provide additional information to assistive technologies about the purpose and behavior of web content. Using ARIA attributes can improve the accessibility of dynamic web content, such as menus, dialogs, and widgets.</p>
+				</div>
+			</div>
+		</div>
+
